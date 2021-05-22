@@ -5,13 +5,16 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     int days = 7;
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: Text("Catalog App"),
+      ),
       body: Center(
         child: Container(
           child: Text(
               "Assalam o aliakum aap ko $days days waly flutter course mei Welcome krta hon"),
         ),
       ),
+      drawer: Drawer(),
     );
   }
 }
