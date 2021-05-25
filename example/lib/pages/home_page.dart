@@ -10,8 +10,11 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text(
-              "Assalam o aliakum aap ko $days days waly flutter course mei Welcome krta hon"),
+          child: Padding(
+            padding: const EdgeInsets.all(12.0),
+            child: Text(
+                "Assalam o aliakum aap ko $days days waly flutter course mei Welcome krta hon"),
+          ),
         ),
       ),
       drawer: Drawer(),
